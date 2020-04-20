@@ -1,4 +1,4 @@
-package lab103;
+package ua.edu.npu.lab01.task0103;
 
 import java.util.Scanner;
 
