@@ -41,12 +41,12 @@ public class Main implements MyInterface{
                 break;
         }
 
-        Random r = new Random(); // Intialize a Random Number Generator with SysTime as the seed
+        Random r = new Random();
         StringBuilder sb = new StringBuilder();
         double a = Math.random()*10;
-        for (int i = 0; i < a ;i++) { // For each letter in the word
-            char tmp = (char) ('а' + r.nextInt('я' - 'а')); // Generate a letter between a and z
-            sb.append(tmp); // Add it to the String
+        for (int i = 0; i < a ;i++) {
+            char tmp = (char) ('а' + r.nextInt('я' - 'а'));
+            sb.append(tmp);
         }
         System.out.println(sb.toString());
 
