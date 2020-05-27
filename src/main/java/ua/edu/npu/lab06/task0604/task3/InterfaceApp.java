@@ -1,4 +1,4 @@
-package ua.edu.npu.lab06.task0603;
+package ua.edu.npu.lab06.task0604.task3;
 
 public interface InterfaceApp {
 
