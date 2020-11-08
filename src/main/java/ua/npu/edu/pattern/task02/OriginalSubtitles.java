@@ -1,7 +1,8 @@
 package ua.npu.edu.pattern.task02;
 
-public class SubtitleOriginal implements Subtitles {
-    public void makeSubtitle() {
+public class OriginalSubtitles implements Original{
+    @Override
+    public void makeOriginalMovie() {
         System.out.println("Субтитри мовою оригіналу.");
     }
 }

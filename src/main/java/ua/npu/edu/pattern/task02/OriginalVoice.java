@@ -1,7 +1,8 @@
 package ua.npu.edu.pattern.task02;
 
-public class VoiceOriginal implements Voice {
-    public void makeVoice() {
+public class OriginalVoice implements Original {
+    @Override
+    public void makeOriginalMovie() {
         System.out.println("Оригінальна озвучка.");
     }
 }

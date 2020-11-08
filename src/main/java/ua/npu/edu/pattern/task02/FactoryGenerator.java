@@ -1,10 +1,9 @@
-package ua.npu.edu.pattern.task02;
 
+package ua.npu.edu.pattern.task02;
 public class FactoryGenerator {
     public static AbstractFactory getFactory(String factory) {
-        if (factory.equalsIgnoreCase("SUBTITLE")) return new SubtitleFactory();
-        if (factory.equalsIgnoreCase("VOICE")) return new VoiceFactory();
+        if (factory.equalsIgnoreCase("UKRAINIAN")) return new UkrainianFactory();
+        if (factory.equalsIgnoreCase("ORIGINAL")) return new OriginalFactory();
         return null;
     }
-
 }
